@@ -1,0 +1,24 @@
+
+#Escribe un programa que, de forma indefinida, nos permita jugar a piedra, papel, tijera
+# (y si te atreves, lagarto, Spock) contra el ordenador.
+from random import randrange
+
+indefinido=True
+while indefinido==True:
+    aleatorio=randrange(3)
+    lista=["piedra","papel","tijera"]
+    print("▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲")
+    print("▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼")
+    print("Elige")
+    print("1=piedra, 2=papel, 3=tijera")
+    jugador=int(input())-1
+    print("================================")
+    print("Jugador VS EnemyRandRange")
+    print(lista[jugador]," VS ",lista[aleatorio] )
+    if jugador-aleatorio==-1 or jugador-aleatorio==2:
+        print("Pierdes")
+    elif jugador-aleatorio==-2 or jugador-aleatorio==1:
+        print("Ganas")
+    elif jugador==aleatorio:
+        print("Empate")
+
