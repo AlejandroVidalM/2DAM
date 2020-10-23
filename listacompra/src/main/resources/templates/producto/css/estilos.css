@@ -1,0 +1,33 @@
+
+.green{
+    background-color: #F2FFF2
+}
+.blue{
+    background-color: #F2FBFF
+}
+.medio{margin: auto;}
+.titulo-seccion {
+    padding: 60px 0 30px 0;
+}
+.center{
+    text-align: center;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 150;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: #111
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #111;
+    display: block;
+}
